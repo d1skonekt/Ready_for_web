@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background: #c1c1c1;
+	background: #ebebeb;
 }
 
 .content{
@@ -15,33 +15,30 @@ body {
 nav {
 	background: #fff;
 }
-
+.navbar{
+	box-shadow: none;
+}
 nav .container {
 	min-height: 90px;
 }
 nav ul{
 	margin-right: 20px;
 }
-
 nav ul li {
 	font-size: 14px;
 	font-family: Roboto-Bold;
 	letter-spacing: 0.75px;
 	margin-left: 30px;
 }
-
 nav ul li a{
 	color: #777777 !important;
 }
-
 nav ul li:nth-child(1) a{
 	color: black !important;
 }
-
 nav .navbar-toggler {
 	background: #c1c1c1;
 }
-
 .wrap{
 	width: 0px;
 	height: 35px;
@@ -51,7 +48,6 @@ nav .navbar-toggler {
 	transition: all 0.5s ease;
 	position: relative;
 }
-
 .input{
 	border: 0;
 	background: transparent;
@@ -62,7 +58,6 @@ nav .navbar-toggler {
 	color: #fff;
 	transition: all 0.3s ease;
 }
-
 .wrap .fa{
 	color: #fff;
 	position: absolute;
@@ -71,20 +66,17 @@ nav .navbar-toggler {
 	font-size: 22px;
 	cursor: pointer;
 }
-
 .wrap.active{
 	width: 200px;
 	padding-left: 25px;
 	transition: all 0.5s ease;
 	background: #c1c1c1;
 }
-
 .input.active{
 	width: 98%;
 	padding-left: 5px;
 	transition: all 0.5s 0.8s ease;
 }
-
 input::placeholder {
 	color: #fff;
 }
@@ -98,7 +90,6 @@ input::placeholder {
 	border:1px solid #fff;
 	border-radius: 25px;
 }
-
 .carousel .carousel-indicators li {
 	width: 1rem;
 	height: 1rem;
