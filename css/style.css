@@ -134,7 +134,8 @@ input::placeholder {
 	font-size: 14px;
 	font-family: Roboto-Bold;
 	letter-spacing: 0.75px;
-	padding: 0 28px 0 28px;
+	padding-right:  30px;
+	padding-left: 10px;
 	background: url('../img/border_main_nav.png') no-repeat center right;
 }
 .main_nav ul li:last-child {
@@ -146,6 +147,7 @@ input::placeholder {
 .main_nav ul li:nth-child(1) a{
 	color: black !important;
 }
+main .navbar-toggler {
+	background: #c1c1c1;
+}
 	/*-----------------------------  END MAIN  -----------------------------*/
-
-
