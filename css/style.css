@@ -123,7 +123,11 @@ input::placeholder {
 
 
 	/*-----------------------------    MAIN    -----------------------------*/
-
+main {
+	padding: .1px;
+	background-color: #fafafa;
+	border-bottom: 3px solid #f6f6f6;
+}
 .main_nav ul {
 	border: 1px solid #c1c1c1;
 	border-right: none;
@@ -150,5 +154,19 @@ input::placeholder {
 main .navbar-toggler {
 	background: #c1c1c1;
 }
-
+main .btn-blue-grey {
+	font-size: 16px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 2px;
+}
 	/*-----------------------------  END MAIN  -----------------------------*/
+
+	/*-----------------------------   FOOTER   -----------------------------*/
+
+
+
+
+	/*----------------------------- END FOOTER -----------------------------*/
+
+
+
