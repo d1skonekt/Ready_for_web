@@ -1,0 +1,92 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	background: #c1c1c1;
+}
+
+.content{
+	margin: auto;
+	max-width: 1600px;
+}
+
+	/*----------------------------- NEADER -----------------------------*/
+nav {
+	background: #fff;
+}
+
+nav .container {
+	min-height: 90px;
+}
+nav ul{
+	margin-right: 20px;
+}
+
+nav ul li {
+	font-size: 14px;
+	font-family: Roboto-Bold;
+	letter-spacing: 0.75px;
+	margin-left: 30px;
+}
+
+nav ul li a{
+	color: #777777 !important;
+}
+
+nav ul li:nth-child(1) a{
+	color: black !important;
+}
+
+nav .navbar-toggler {
+	background: #c1c1c1;
+}
+
+.wrap{
+	width: 0px;
+	height: 35px;
+	line-height: 40px;
+	padding-right: 55px;
+	border-radius: 5px;
+	transition: all 0.5s ease;
+	position: relative;
+}
+
+.input{
+	border: 0;
+	background: transparent;
+	width: 0%;
+	outline: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+.wrap .fa{
+	color: #fff;
+	position: absolute;
+	right: 17px;
+	top: 7px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.wrap.active{
+	width: 200px;
+	padding-left: 25px;
+	transition: all 0.5s ease;
+	background: #c1c1c1;
+}
+
+.input.active{
+	width: 98%;
+	padding-left: 5px;
+	transition: all 0.5s 0.8s ease;
+}
+
+input::placeholder {
+	color: #fff;
+}
+	/*----------------------------- END NEADER -----------------------------*/}
+
