@@ -88,5 +88,46 @@ nav .navbar-toggler {
 input::placeholder {
 	color: #fff;
 }
-	/*----------------------------- END NEADER -----------------------------*/}
+	/*----------------------------- END NEADER -----------------------------*/
+
+
+	/*-----------------------------   SLIDER   -----------------------------*/
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+	width: 30px;
+	height: 30px;
+	border:1px solid #fff;
+	border-radius: 25px;
+}
+
+.carousel .carousel-indicators li {
+	width: 1rem;
+	height: 1rem;
+}
+.carousel-indicators .active{
+	background-color: black;
+}
+.carousel-caption {
+	bottom: 40%;
+}
+.carousel-caption h3{
+	font-size: 48px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	background-color: #000;
+	display: inline;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.carousel-caption p{
+	font-size: 18px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: #000;
+}
+	/*----------------------------- END SLIDER -----------------------------*/
+}
 
