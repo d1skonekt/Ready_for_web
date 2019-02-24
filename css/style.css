@@ -1,22 +1,45 @@
 html {
 	font-size: 10px;
+	height: 100%
 }
 
 body {
 	background: #ebebeb;
+	height: 100%;
 }
 
-.content{
+.wrapper{
 	margin: auto;
 	max-width: 1600px;
 }
-
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  background-color: #fafafa;
+}
+footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
 	/*----------------------------- NEADER -----------------------------*/
 nav {
 	background: #fff;
 }
 .navbar{
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 }
 nav .container {
 	min-height: 90px;
@@ -45,6 +68,8 @@ nav .navbar-toggler {
 	line-height: 40px;
 	padding-right: 55px;
 	border-radius: 5px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 	position: relative;
 }
@@ -56,6 +81,8 @@ nav .navbar-toggler {
 	font-family: sans-serif;
 	font-size: 14px;
 	color: #fff;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .wrap .fa{
@@ -69,13 +96,26 @@ nav .navbar-toggler {
 .wrap.active{
 	width: 200px;
 	padding-left: 25px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 	background: #c1c1c1;
 }
 .input.active{
 	width: 98%;
 	padding-left: 5px;
+	-webkit-transition: all 0.5s 0.8s ease;
+	-o-transition: all 0.5s 0.8s ease;
 	transition: all 0.5s 0.8s ease;
+}
+input::-webkit-input-placeholder {
+	color: #fff;
+}
+input:-ms-input-placeholder {
+	color: #fff;
+}
+input::-ms-input-placeholder {
+	color: #fff;
 }
 input::placeholder {
 	color: #fff;
@@ -125,8 +165,6 @@ input::placeholder {
 	/*-----------------------------    MAIN    -----------------------------*/
 main {
 	padding: .1px;
-	background-color: #fafafa;
-	border-bottom: 3px solid #f6f6f6;
 }
 .main_nav ul {
 	border: 1px solid #c1c1c1;
@@ -159,14 +197,18 @@ main .btn-blue-grey {
 	font-family: RobotoCondensed-Light;
 	letter-spacing: 2px;
 }
+main .d-flex {
+	width: 100%;
+	margin: auto;
+}
 	/*-----------------------------  END MAIN  -----------------------------*/
 
 	/*-----------------------------   FOOTER   -----------------------------*/
 
-
+footer {
+	border-top: 3px solid #f6f6f6;
+	max-width: 1600px;
+}
 
 
 	/*----------------------------- END FOOTER -----------------------------*/
-
-
-
