@@ -65,7 +65,7 @@ nav .navbar-toggler {
 .wrap{
 	width: 0px;
 	height: 35px;
-	line-height: 40px;
+	line-height: 33px;
 	padding-right: 55px;
 	border-radius: 5px;
 	-webkit-transition: all 0.5s ease;
@@ -79,7 +79,7 @@ nav .navbar-toggler {
 	width: 0%;
 	outline: none;
 	font-family: sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	color: #fff;
 	-webkit-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -200,6 +200,9 @@ main .btn-blue-grey {
 main .d-flex {
 	width: 100%;
 	margin: auto;
+}
+.galery {
+	margin-bottom: 20px;
 }
 	/*-----------------------------  END MAIN  -----------------------------*/
 
