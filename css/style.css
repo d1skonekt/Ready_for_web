@@ -33,6 +33,20 @@ footer {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
 }
+@media (max-width : 1000px) {
+	  		.main_nav ul li {
+	  			background: none;
+	  		}
+	  		header .wrap {
+	  			display: none;
+	  		}
+	  		.heading figcaption {
+	  			display: none;
+	  		}
+	  		.text_info_team {
+	  			background-color: #fafafa;
+	  		}
+	  	}
 	/*----------------------------- NEADER -----------------------------*/
 nav {
 	background: #fff;
