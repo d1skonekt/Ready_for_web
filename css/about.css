@@ -1,0 +1,103 @@
+	/* ------------ HEADING ------------ */
+.heading figcaption {
+	position: absolute;
+	top: 30%;
+	left: 16%;
+	}
+.heading h2{
+	font-size: 48px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: .1em;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #000;
+	display: inline;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.heading h3{
+	font-size: 18px;
+	font-family: RobotoCondensed-Light;
+	margin-top: 15px;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	color: #000;
+}
+.heading p {
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: .1em;
+	color: #777777;
+	width: 65%;
+	opacity: 0;
+	transition: all 1s ease-out;
+}
+
+.heading p:hover {
+	opacity: 1;
+}
+	 /* ------------ END HEADING ------------ */
+
+
+	  /* ------------ MAIN_ABOUT ------------ */
+.story_text h2 {
+	font-size: 22px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 1px;
+	color: #000;
+	text-transform: uppercase;
+}
+.story_text p {
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: .5px;
+	color: #777777;
+}
+.team-section h2 {
+	font-size: 30px;
+	font-family: Roboto-Regular;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+.team-section h3 {
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 1px;
+	line-height: 2em;
+	margin-top: 40px;
+	width: 50%;
+}
+.team_info {
+	margin: 70px 0;
+}
+.text_info_team {
+	width: 93.68%;
+	padding: 30px 0 20px 40px;
+	background-color: #fff;
+}
+.team-section h4 {
+	font-size: 24px;
+	font-family: Roboto-Regular;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #041608;
+	text-align: left;
+}
+.team-section h5 {
+	font-size: 16px;
+	font-family: Roboto-Bold;
+	letter-spacing: 1px;
+	color: #777777;
+	text-align: left;
+}
+.team-section p {
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	color: #9c9c9c;
+	text-align: left;
+}
+
+
+	/* ------------ END MAIN_ABOUT ------------ */
