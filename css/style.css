@@ -219,7 +219,8 @@ main .active{
 .black_modal span:hover {
 	opacity: 1;
 }
-.tab-content h3,  main section h5 {
+
+.tab-content h3,  main section h5, .modal .modal-content h4 {
 	font-size: 18px;
 	font-family: Roboto-Regular;
 	letter-spacing: 3px;

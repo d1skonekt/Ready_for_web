@@ -1,0 +1,86 @@
+	/* ------------ END MAIN ------------ */
+
+main .container {
+	margin-top: 80px;
+}
+main h2{
+	font-size: 30px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #000;
+}
+main h3{
+	font-size: 16px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 1px;
+	color: #2f302f;
+}
+main h4{
+	font-size: 15px;
+	font-family: Roboto-Regular;
+	letter-spacing: 1px;
+	color: #777777;
+	margin: 30px 0;
+}
+main p {
+	font-size: 15px;
+	font-family: Roboto-Regular;
+	letter-spacing: 1px;
+	color: #777777;
+	margin-top: 5px;
+}
+main .strongtext {
+	color: #222222;
+}
+.form-control  {
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	font-style: italic;
+	color: #bababa;
+}
+.md-textarea {
+	min-height: 150px;
+}
+.map-container{
+	overflow:hidden;
+	padding-bottom: 22.55%;
+	position:relative;
+	max-height: 360px;
+}
+.map-container iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	max-height: 360px;
+}
+.values p{
+	font-family: RobotoCondensed-Light;
+	width: 40%;
+	margin: auto;
+	line-height: 30px;
+}
+.values_base h3{
+	font-size: 18px;
+	font-family: Roboto-Regular;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #000;
+	margin-top: 20px;
+}
+.values_base p{
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 1px;
+	color: #777777;
+	margin-top: 15px;
+	line-height: 30px;
+}
+
+
+
+	/* ------------ END MAIN ------------ */
