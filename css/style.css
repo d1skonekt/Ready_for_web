@@ -33,20 +33,6 @@ footer {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
 }
-@media (max-width : 1000px) {
-	  		.main_nav ul li {
-	  			background: none;
-	  		}
-	  		header .wrap {
-	  			display: none;
-	  		}
-	  		.heading figcaption {
-	  			display: none;
-	  		}
-	  		.text_info_team {
-	  			background-color: #fafafa;
-	  		}
-	  	}
 	/*----------------------------- NEADER -----------------------------*/
 nav {
 	background: #fff;
@@ -70,8 +56,11 @@ nav ul li {
 nav ul li a{
 	color: #777777 !important;
 }
-nav ul li:nth-child(1) a{
-	color: black !important;
+nav ul li a:hover {
+	color: #000 !important;
+}
+nav ul li a:hover:before {
+	content: "\2014";
 }
 nav .navbar-toggler {
 	background: #c1c1c1;
@@ -144,6 +133,10 @@ input::placeholder {
 	border:1px solid #fff;
 	border-radius: 25px;
 }
+.carousel-control-next-icon:hover, .carousel .carousel-control-prev-icon:hover {
+	border: 1px solid rgba(0,0,0,0.6);
+	box-shadow: inset  0 0 20px rgba(0,0,0,0.9);
+}
 .carousel .carousel-indicators li {
 	width: 1rem;
 	height: 1rem;
@@ -157,7 +150,7 @@ input::placeholder {
 .carousel-caption h3{
 	font-size: 48px;
 	font-family: RobotoCondensed-Light;
-	letter-spacing: .1em;
+	letter-spacing: 4px;
 	text-transform: uppercase;
 	background-color: #000;
 	display: inline;
@@ -168,7 +161,7 @@ input::placeholder {
 .carousel-caption p{
 	font-size: 18px;
 	font-family: RobotoCondensed-Light;
-	letter-spacing: 0.4em;
+	letter-spacing: 9px;
 	text-transform: uppercase;
 	margin-top: 15px;
 	color: #000;
@@ -177,46 +170,73 @@ input::placeholder {
 
 
 	/*-----------------------------    MAIN    -----------------------------*/
-main {
-	padding: .1px;
-}
-.main_nav ul {
-	border: 1px solid #c1c1c1;
-	border-right: none;
-	border-left: none;
-
-}
-.main_nav ul li {
-	font-size: 14px;
-	font-family: Roboto-Bold;
-	letter-spacing: 0.75px;
-	padding-right:  30px;
-	padding-left: 10px;
-	background: url('../img/border_main_nav.png') no-repeat center right;
-}
-.main_nav ul li:last-child {
-	background: none;
-	}
-.main_nav ul li a{
-	color: #777777 !important;
-}
-.main_nav ul li:nth-child(1) a{
-	color: black !important;
-}
-main .navbar-toggler {
-	background: #c1c1c1;
-}
 main .btn-blue-grey {
 	font-size: 16px;
 	font-family: RobotoCondensed-Light;
 	letter-spacing: 2px;
 }
-main .d-flex {
-	width: 100%;
-	margin: auto;
+.main_nav {
+	border: 1px solid #c1c1c1;
+	border-right: none;
+	border-left: none;
 }
-.galery {
-	margin-bottom: 20px;
+.main_nav a{
+	font-size: 14px;
+	font-family: Roboto-Bold;
+	letter-spacing: 0.75px;
+	color: #777777 ;
+	text-transform: uppercase;
+}
+main .active{
+	color: #000;
+}
+.main_nav  ul{
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.main_nav  ul li {
+	background: url('../img/border_main_nav.png') no-repeat center right;
+}
+.all_img_wrapper {
+	margin-bottom: 30px; 
+}
+.black_modal {
+	width: 100%;
+	position: relative;
+}
+.black_modal span {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 1s ease-out;
+}
+.black_modal span:hover {
+	opacity: 1;
+}
+.tab-content h3,  main section h5 {
+	font-size: 18px;
+	font-family: Roboto-Regular;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #000;
+}
+.tab-content p, main section p {
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 1px;
+	color: #777777;
+	margin-top: 15px;
+}
+main section h2 {
+	font-family: Roboto-Regular;
+	letter-spacing: 4px;
+	text-transform: uppercase;
 }
 	/*-----------------------------  END MAIN  -----------------------------*/
 
@@ -226,6 +246,76 @@ footer {
 	border-top: 3px solid #f6f6f6;
 	max-width: 1600px;
 }
+footer .container .flex-center {
+	border: 1px solid #c1c1c1;
+	border-right: none;
+	border-left: none;
+}
 
 
 	/*----------------------------- END FOOTER -----------------------------*/
+
+	/* ------------ HEADING PORTFOLIO------------ */
+.heading figcaption {
+	position: absolute;
+	top: 30%;
+	left: 16%;
+	}
+.heading h2{
+	font-size: 48px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: .1em;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #000;
+	display: inline;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.heading h3{
+	font-size: 18px;
+	font-family: RobotoCondensed-Light;
+	margin-top: 15px;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	color: #000;
+}
+.heading p {
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: .1em;
+	color: #777777;
+	width: 65%;
+	opacity: 0;
+	transition: all 1s ease-out;
+}
+
+.heading p:hover {
+	opacity: 1;
+}
+	 /* ------------ END HEADING PORTFOLIO ------------ */
+
+
+
+	/* ------------ MEDIA ------------ */
+@media (max-width : 1000px) {
+	  		header .wrap {
+	  			display: none;
+	  		}
+	  		.heading figcaption {
+	  			display: none;
+	  		}
+	  		.text_info_team {
+	  			background-color: #fafafa !important;
+	  		}
+	  		.main_nav ul {
+	  			flex-direction: column !important;
+	  		}
+	  		.main_nav  ul li {
+	  			background: none;
+	  		}
+	  		.black_modal span {
+	  			display: none;
+	  		}
+	  	}
