@@ -1,0 +1,199 @@
+	/*-----------------------------   MAIN  -----------------------------*/
+main h4 {
+	font-size: 13px;
+	font-family: Roboto-Regular;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	background-color: #000;
+	display: inline-block;
+	padding: 5px 15px;
+}
+main h3 {
+	font-size: 20px;
+	font-family: Roboto-Regular;
+	color: #333333;
+}
+main h5 {
+	font-size: 13px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 1px;
+	color: #cccccc;
+}
+main p {
+	font-size: 14px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 1px;
+	color: #777777;
+}
+.blog_post {
+	background-color: #fff;
+	padding: 
+}
+main .img_hover h3, main .img_hover h5, main .img_hover p{
+	color: #fff;
+}
+.sidebar_search input {
+	border: none;
+}
+.sidebar_search form {
+	width: 100%;
+	background-color: #fff;
+}
+.sidebar_search input {
+	width: 80%;
+	height: 100%;
+	min-height: 50px;
+}
+.sidebar_search input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.sidebar_search p{
+	font-size: 16px;
+	font-family: RobotoCondensed-LightItalic;
+}
+.sidebar_search p i {
+	background-color: #b7b7b7;
+	width: 13%;
+	text-align: center;
+	padding: 12px 0;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.recent_posts {
+	background-color: #fff;
+}
+.recent_posts h4 {
+	font-size: 16px;
+	font-family: RobotoCondensed-Light;
+	letter-spacing: 10px;
+	color: #000;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #ebebeb;
+}
+.recent_posts h3{
+	font-size: 16px;
+}
+.recent_posts a{
+	color: #000;
+}
+.recent_posts {
+	position: relative;
+}
+.triangle_post  {
+	position: absolute;
+	left: 50%;
+	top: 7%;
+}
+.triangle_tags {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+.triangle_insta {
+	position: absolute;
+	left: 50%;
+	top: 11%;
+}
+.tags a{
+	font-size: 13px;
+	font-family: Roboto-Regular;
+	color: #9c9c9c;
+	padding: 5px 15px 7px 15px;
+	border: 1px solid #9c9c9c;
+	border-radius: 5px;
+}
+.tags a:hover {
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+	/*-----------------------------  END MAIN  -----------------------------*/
+.post_design h2{
+	font-size: 30px;
+	font-family: RobotoCondensed-Light;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #333333;
+}
+.post_design h5 {
+	color: #777777;
+	letter-spacing: 2px;
+}
+.post_design h3{
+	font-size: 16px;
+	font-family: Roboto-Bold;
+	text-transform: uppercase;
+	color: #333333;
+	margin-left: 7%;
+}
+.post_content {
+	font-size: 14px;
+	font-family: Roboto-Regular;
+	width: 76%;
+	margin: 40px auto 0 auto;
+	line-height: 30px;
+}
+.post_content_imortant {
+	font-size: 18px;
+	font-family: PTSerif-BoldItalic;
+	margin-left: 7%;
+	margin-top: 60px;
+	padding: 25px 20px 25px 30px;
+	border: 1px solid #c8c8c8;
+	border-left: 5px solid #c8c8c8;
+	color: #777777;
+}
+#blog-contact-form {
+	width: 74%;
+	margin: auto;
+}
+.blog-form h3 {
+	font-size: 20px;
+	font-family: RobotoCondensed-Light;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-align: center;
+	margin-top: 90px;
+}
+.blog-form input {
+	min-height: 35px;
+	font-size: 14px;
+	font-family: RobotoCondensed-LightItalic;
+	color: #c4c4c4;
+}
+.blog-form textarea {
+	min-height: 110px;
+	font-size: 14px;
+	font-family: RobotoCondensed-LightItalic;
+	color: #c4c4c4;
+}
+
+
+/*-----------------------------   MAIN for post -----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------- end MAIN for post -----------------------------*/
+

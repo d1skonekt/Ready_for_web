@@ -15,6 +15,7 @@
 	  <!-- Your custom styles (optional) -->  
 	  <link rel="stylesheet" href="css/fonts.css">
 	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/portfolio.css">
 	</head>
 	<!-- ******************* BODY   ******************* -->
 	<body>		
@@ -22,7 +23,7 @@
 		<div class="wrapper">
 			<div class="content">
 		  		<!-- ******************* HEADER  ******************* -->
-				<header>
+				<header class="z-depth-1-half">
 				  	<nav class="navbar navbar-expand-lg navbar-dark">
 				  		<div class="container">
 				  			<a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="LOGO"></a>
@@ -66,10 +67,10 @@
 
 
 		  		<!-- *******************   HEADING   ******************* -->
-		  		<div class="row heading">
+		  		<div class="row heading ">
 		  			<div class="col">
-		  				<figure class="figure">
-		  				  <img src="img/portfolio_heading_bg.png" class="figure-img img-fluid"
+		  				<figure class="figure mb-0">
+		  				  <img src="img/portfolio_heading_bg.png" class="figure-img img-fluid mb-0"
 		  				    alt="...">
 		  				  	<figcaption class="figure-caption">
 		  				  		<h2>LATEST PROJECTS</h2>
@@ -84,7 +85,93 @@
 
 				<!-- *******************    MAIN    ******************* -->
 			  	<main>
-			  		
+			  		<div class="portfolio_nav d-flex align-items-center">
+			  			<div class="container">
+			  				<div class="row justify-content-between">
+			  					<div class="col-lg-5 col-md-8 col-sm-6">
+			  						<div class="text-left">
+			  							<a class="carousel-control-prev" href="#carousel_portfolio" role="button" data-slide="prev">
+			  								&lt Previous
+			  							</a>
+			  							<a class="carousel-control-next" href="#carousel_portfolio" role="button" data-slide="next">
+			  								Next &gt
+			  							</a>
+			  						</div>
+			  					</div>
+			  					<div class="col-lg-2 col-md-4 col-sm-6">
+			  						<div class="text-right ">
+			  							<a href="index.html#main_nav"><i class="fa fa-list"></i>Show all</a>
+			  						</div>
+			  					</div>
+			  				</div>
+			  			</div>
+			  		</div>
+			  		<div class="container carousel_portfolio_info">
+				  		<div id="carousel_portfolio" class="carousel" data-interval="false">
+				  		    <div class="carousel-inner" role="listbox">
+				  		        <div class="carousel-item active">
+									<div class="row portfolio_project_info">
+										<div class="col-lg-6 col-md-6 col-sm-12">
+					  		            	<h2>Pereira Creative Agency</h2>
+					  		            	<h4 class="mt-3">Branding Design</h4>
+					  		            	<hr class="mt-5">
+					  		            	<div>
+						  		            	<h5>March 1, 2019</h5>
+						  		            	<h5><i class="fas fa-heart"></i> 500 likes</h5>
+						  		            	<p class="my-5">
+						  		            		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas neque beatae numquam soluta excepturi, asperiores praesentium fugiat est dolores iure consequuntur consectetur nostrum cupiditate eveniet ad, repudiandae eligendi impedit animi, modi deleniti non veniam facilis. Natus aliquid adipisci voluptatum, commodi non illum fuga corporis est rerum aspernatur reiciendis, fugit eius animi in, earum cumque quo quisquam repellendus vero consectetur. Ducimus illum nisi, commodi natus corporis, hic nam quo perferendis ullam.
+						  		            	</p>
+					  		            	</div>
+					  		            	<hr class="mb-5">
+					  		            	<h3>Role On Project :</h3>
+					  		            	<p>Project Designer, Lead Designer, Markerting Head</p>
+					  		            	<h3>Tags :</h3>
+					  		            	<p>Mobile App, UI/UX design</p>
+					  		            	<div class="portfolio_social mt-5">
+					  		            		<div class="for_share flex-center">
+						  		            		<p class="m-0">
+						  		            			<i class="fa fa-share-alt"></i> Share
+						  		            		</p>
+					  		            		</div>
+					  		            		<div class="flex-center portfolio_icons">
+					  		            		  <a class="fb-ic" href="https://www.facebook.com/">
+					  		            		    <i class="fab fa-facebook-f fa-lg grey-text mr-md-5 mr-3 fa-2x"> </i>
+					  		            		  </a>
+					  		            		  <a class="gplus-ic" href="https://www.google.com">
+					  		            		    <i class="fab fa-google-plus-g fa-lg grey-text mr-md-5 mr-3 fa-2x"> </i>
+					  		            		  </a>
+					  		            		  <a class="tw-ic" href="https://twitter.com">
+					  		            		    <i class="fab fa-twitter fa-lg grey-text mr-md-5 mr-3 fa-2x"> </i>
+					  		            		  </a>			  
+					  		            		  <a class="li-ic" href="https://www.linkedin.com/">
+					  		            		    <i class="fab fa-linkedin-in fa-lg grey-text mr-md-5 mr-3 fa-2x"> </i>
+					  		            		  </a>			            
+					  		            		  <a class="dribbble-ic" href="https://dribbble.com/">
+					  		            		    <i class="fab fa-dribbble fa-lg grey-text mr-md-5 mr-3 fa-2x"> </i>
+					  		            		  </a>	
+					  		            		  <a class="pin-ic" href="https://www.pinterest.com/">
+					  		            		    <i class="fab fa-pinterest fa-lg grey-text mr-md-5 mr-3 fa-2x"> </i>
+					  		            		  </a>		           
+					  		            		  <a class="ins-ic" href="https://www.instagram.com/">
+					  		            		    <i class="fab fa-instagram fa-lg grey-text fa-2x"> </i>
+					  		            		  </a>
+					  		            		</div>
+					  		            	</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-12">
+											
+										</div>										
+									</div>
+				  		        </div>
+				  		        <div class="carousel-item">
+				  		               adfasdfasdfasdf###############
+				  		        </div>
+				  		        <div class="carousel-item">
+				  		              asdfasdfadsf@@@@@@@@@@@@@@
+				  		        </div>
+				  		    </div>
+				  		</div>
+				  	</div>
 			  	</main>
 		  		<!-- *******************  END MAIN  ******************* -->
 			</div>

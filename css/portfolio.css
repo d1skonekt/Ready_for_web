@@ -1,0 +1,89 @@
+	/*-----------------------------   MAIN  -----------------------------*/
+.portfolio_nav {
+	min-height: 60px;
+	background-color: #fff;
+	margin: 0;
+}
+
+.portfolio_nav .container a{
+	font-size: 14px;
+	font-family: Roboto-Bold;
+	text-transform: uppercase;
+	color: black;
+
+}
+main .text-left a {
+	padding-right: 60px;
+}
+main .text-right i {
+	padding-right: 5px;
+}
+.carousel_portfolio_info {
+	margin-top: 70px;
+}
+.portfolio_project_info h2{
+	font-size: 30px;
+	font-family: Roboto-Regular;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.portfolio_project_info h4, .portfolio_project_info h3{
+	font-size: 16px;
+	font-family: Roboto-Bold;
+	color: #555555;
+}
+.portfolio_project_info h5{
+	display: inline-block;
+	width: 45%;
+	font-size: 14px;
+	font-family: Roboto-Bold;
+	color: #555555;
+}
+.portfolio_project_info p{
+	font-size: 14px;
+	font-family: Roboto-Regular;
+	color: #555555;
+}
+.portfolio_project_info h3{
+	color: #000;
+	text-transform: uppercase;
+}
+.portfolio_project_info h3+p {
+	font-size: 16px;
+	color: #999999;
+}
+.portfolio_social {
+	display: flex;
+	
+}
+.portfolio_social div {
+	min-height: 42px;
+}
+.for_share {
+	padding: 0 15px;
+	margin-right: 10px;
+	background: #707070;
+	border-radius: 5px;
+}
+.for_share p{
+	color: white;
+}
+.portfolio_icons {
+	background: url("../img/portfolio_social_icon_bg.png") no-repeat center right;
+	max-width: 291px;
+}
+.portfolio_icons .fab {
+	margin: 10px !important;
+}
+
+
+
+
+
+
+
+
+	/*-----------------------------  END MAIN  -----------------------------*/
+
+

@@ -34,6 +34,10 @@ footer {
           flex: 0 0 auto;
 }
 	/*----------------------------- NEADER -----------------------------*/
+header {
+    position: relative;
+    z-index: 1;
+}
 nav {
 	background: #fff;
 }
@@ -65,7 +69,7 @@ nav ul li a:hover:before {
 nav .navbar-toggler {
 	background: #c1c1c1;
 }
-.wrap{
+header .wrap{
 	width: 0px;
 	height: 35px;
 	line-height: 33px;
@@ -76,7 +80,7 @@ nav .navbar-toggler {
 	transition: all 0.5s ease;
 	position: relative;
 }
-.input{
+header .input{
 	border: 0;
 	background: transparent;
 	width: 0%;
@@ -88,7 +92,7 @@ nav .navbar-toggler {
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-.wrap .fa{
+header .wrap .fa{
 	color: #fff;
 	position: absolute;
 	right: 17px;
@@ -96,7 +100,7 @@ nav .navbar-toggler {
 	font-size: 22px;
 	cursor: pointer;
 }
-.wrap.active{
+header .wrap.active{
 	width: 200px;
 	padding-left: 25px;
 	-webkit-transition: all 0.5s ease;
@@ -104,23 +108,23 @@ nav .navbar-toggler {
 	transition: all 0.5s ease;
 	background: #c1c1c1;
 }
-.input.active{
+header .input.active{
 	width: 98%;
 	padding-left: 5px;
 	-webkit-transition: all 0.5s 0.8s ease;
 	-o-transition: all 0.5s 0.8s ease;
 	transition: all 0.5s 0.8s ease;
 }
-input::-webkit-input-placeholder {
+header input::-webkit-input-placeholder {
 	color: #fff;
 }
-input:-ms-input-placeholder {
+header input:-ms-input-placeholder {
 	color: #fff;
 }
-input::-ms-input-placeholder {
+header input::-ms-input-placeholder {
 	color: #fff;
 }
-input::placeholder {
+header input::placeholder {
 	color: #fff;
 }
 	/*----------------------------- END NEADER -----------------------------*/
@@ -202,11 +206,12 @@ main .active{
 .all_img_wrapper {
 	margin-bottom: 30px; 
 }
-.black_modal {
+/* main index+main blog*/
+.black_modal, .img_hover {
 	width: 100%;
 	position: relative;
 }
-.black_modal span {
+.black_modal span, .img_hover span {
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,.3);
@@ -216,7 +221,7 @@ main .active{
 	opacity: 0;
 	transition: all 1s ease-out;
 }
-.black_modal span:hover {
+.black_modal span:hover, .img_hover span:hover {
 	opacity: 1;
 }
 
@@ -317,6 +322,24 @@ footer .container .flex-center {
 	  			background: none;
 	  		}
 	  		.black_modal span {
+	  			display: none;
+	  		}
+	  		.portfolio_nav .container .text-right, .portfolio_nav .container .text-left{
+	  			text-align: center !important;
+	  		}
+	  		main .text-left a {
+	  			padding-right: 15px !important;
+	  		}
+	  		.portfolio_social {
+	  			display: flex;
+	  			flex-direction: column;
+	  			align-items: center;
+	  		}
+	  		.for_share {
+	  			max-width: 85px;
+	  			margin-bottom: 10px;
+	  		}
+	  		main .sidebar {
 	  			display: none;
 	  		}
 	  	}

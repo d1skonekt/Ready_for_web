@@ -10,6 +10,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Lato-Bold";
   src: url("../font/Lato-Bold.eot"); /* IE9 Compat Modes */
@@ -22,6 +23,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto-Bold";
   src: url("../font/Roboto-Bold.eot"); /* IE9 Compat Modes */
@@ -34,6 +36,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "RobotoCondensed-Light";
   src: url("../font/RobotoCondensed-Light.eot"); /* IE9 Compat Modes */
@@ -56,6 +59,32 @@
     url("../font/Roboto-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
     url("../font/Roboto-Regular.woff") format("woff"), /* Modern Browsers */
     url("../font/Roboto-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoCondensed-LightItalic";
+  src: url("../font/RobotoCondensed-LightItalic.eot"); /* IE9 Compat Modes */
+  src: url("../font/RobotoCondensed-LightItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../font/RobotoCondensed-LightItalic.otf") format("opentype"), /* Open Type Font */
+    url("../font/RobotoCondensed-LightItalic.svg") format("svg"), /* Legacy iOS */
+    url("../font/RobotoCondensed-LightItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../font/RobotoCondensed-LightItalic.woff") format("woff"), /* Modern Browsers */
+    url("../font/RobotoCondensed-LightItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSerif-BoldItalic";
+  src: url("../font/PTF76F.eot"); /* IE9 Compat Modes */
+  src: url("../font/PTF76F.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../font/PTF76F.otf") format("opentype"), /* Open Type Font */
+    url("../font/PTF76F.svg") format("svg"), /* Legacy iOS */
+    url("../font/PTF76F.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../font/PTF76F.woff") format("woff"), /* Modern Browsers */
+    url("../font/PTF76F.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
