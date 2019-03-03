@@ -6,11 +6,14 @@
 }
 
 .portfolio_nav .container a{
-	font-size: 14px;
+	font-size: 14px ;
 	font-family: Roboto-Bold;
 	text-transform: uppercase;
-	color: black;
+	color: black !important;
+}
 
+.carousel_nav_button {
+	min-height: 60px;
 }
 main .text-left a {
 	padding-right: 60px;
@@ -54,8 +57,7 @@ main .text-right i {
 	color: #999999;
 }
 .portfolio_social {
-	display: flex;
-	
+	display: flex;	
 }
 .portfolio_social div {
 	min-height: 42px;
@@ -70,13 +72,35 @@ main .text-right i {
 	color: white;
 }
 .portfolio_icons {
-	background: url("../img/portfolio_social_icon_bg.png") no-repeat center right;
-	max-width: 291px;
+	background: #e1e1e1;
+	position: relative;
+	margin-left: 10px;
+}
+.portfolio_icons .portfolio_triangle {
+	position: absolute;
+	top: 30%;
+	left: -8px;
 }
 .portfolio_icons .fab {
 	margin: 10px !important;
 }
-
+.related_works h2 {
+	font-size: 30px;
+	font-family: RobotoCondensed-Light;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: #000;
+	text-align: center;
+}
+.related_works h4 {
+	font-size: 14px;
+	font-family: Roboto-Regular;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	color: #777;
+	line-height: 30px;
+}
 
 
 
