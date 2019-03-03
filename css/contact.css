@@ -58,7 +58,7 @@ main .strongtext {
 	position:absolute;
 	max-height: 360px;
 }
-.values p{
+.values p {
 	font-family: RobotoCondensed-Light;
 	width: 40%;
 	margin: auto;
@@ -84,3 +84,14 @@ main .strongtext {
 
 
 	/* ------------ END MAIN ------------ */
+
+	@media (max-width : 1000px) {
+		.form-control {
+			height: 70px;
+		}
+		.values p {
+			width: 100%;
+		}
+
+
+	}

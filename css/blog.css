@@ -114,6 +114,10 @@ main .img_hover h3, main .img_hover h5, main .img_hover p{
 
 
 	/*-----------------------------  END MAIN  -----------------------------*/
+
+
+
+	/*-----------------------------   MAIN for blog_post_1 -----------------------------*/
 .post_design h2{
 	font-size: 30px;
 	font-family: RobotoCondensed-Light;
@@ -174,26 +178,14 @@ main .img_hover h3, main .img_hover h5, main .img_hover p{
 	color: #c4c4c4;
 }
 
-
-/*-----------------------------   MAIN for post -----------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------------------- end MAIN for post -----------------------------*/
-
+@media (max-width : 1000px) {
+	.blog_post .container {
+		padding: 0 !important;
+	}
+	.img_hover span{
+		padding: 0 !important;
+	}
+	.img_hover span h3 {
+		margin: 0 !important;
+	}
+}

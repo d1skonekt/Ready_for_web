@@ -101,3 +101,12 @@
 
 
 	/* ------------ END MAIN_ABOUT ------------ */
+@media (max-width : 1000px) {
+	.team-section h3 {
+	  	width: 100%;
+	}
+	.text_info_team {
+		padding: 0;
+	}
+
+}
