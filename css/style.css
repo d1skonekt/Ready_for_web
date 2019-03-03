@@ -342,4 +342,15 @@ footer .container .flex-center {
 	  		main .sidebar {
 	  			display: none;
 	  		}
+	  		.portfolio_nav .container a {
+	  			border: none !important;
+	  			padding: 2px !important;
+	  		}
+	  		.portfolio_btn {
+	  			margin: 5px 0 !important;
+	  		}
+	  		.values_base {
+	  			text-align: center;
+	  		}
 	  	}
+	  		

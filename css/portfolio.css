@@ -10,17 +10,20 @@
 	font-family: Roboto-Bold;
 	text-transform: uppercase;
 	color: black !important;
+	padding: 20px 30px;
+	border: 1px solid #e1e1e1;
+	border-top: none;
+	border-bottom: none;
+}
+.portfolio_next {
+	padding-right: 50px !important;
+	padding-left: 40px !important;
+	border-left: none !important;
+}
+.portfolio_btn {
+	margin-top: 20px;
 }
 
-.carousel_nav_button {
-	min-height: 60px;
-}
-main .text-left a {
-	padding-right: 60px;
-}
-main .text-right i {
-	padding-right: 5px;
-}
 .carousel_portfolio_info {
 	margin-top: 70px;
 }
