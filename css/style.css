@@ -211,7 +211,7 @@ main .active{
 	width: 100%;
 	position: relative;
 }
-.black_modal span, .img_hover span {
+.black_modal span, .img_hover span, .modal_text {
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,.3);
@@ -221,7 +221,7 @@ main .active{
 	opacity: 0;
 	transition: all 1s ease-out;
 }
-.black_modal span:hover, .img_hover span:hover {
+.black_modal span:hover, .img_hover span:hover, .modal_text:hover {
 	opacity: 1;
 }
 
