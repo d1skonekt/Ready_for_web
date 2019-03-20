@@ -188,4 +188,15 @@ main .img_hover h3, main .img_hover h5, main .img_hover p{
 	.img_hover span h3 {
 		margin: 0 !important;
 	}
+	.img_hover {
+		text-align: center;
+	}
+}
+@media (max-width : 600px) {
+	.post_content {
+		width: 100%;
+	}
+	#blog-contact-form {
+		width: 100%;
+	}
 }
